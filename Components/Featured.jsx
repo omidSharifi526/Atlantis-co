@@ -34,7 +34,7 @@ const Featured = () => {
           console.log(img);
           return (<> 
 
-          <SwiperSlide><img width='100%' key={index} height='600px' src={img.src} alt="" /></SwiperSlide>
+          <SwiperSlide><img width='100%' key={index} height='600px' src={img.src} alt="test" /></SwiperSlide>
           </>)
 
 

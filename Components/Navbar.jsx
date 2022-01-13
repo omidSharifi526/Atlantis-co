@@ -35,7 +35,7 @@ const Navbar = () => {
             </div>
             <div className={styles.item}>
                 <div className={styles.cart}>
-                <i class="fas fa-shopping-cart fs-3 text-light"></i>
+                <i className="fas fa-shopping-cart fs-3 text-light"></i>
                 <div className={styles.counter}>2</div>
                 </div>
 
