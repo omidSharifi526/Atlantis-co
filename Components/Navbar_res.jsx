@@ -1,8 +1,11 @@
 import React from 'react';
 
 
+
 const Navbar_res = () => {
     return (
+       <>
+       
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark m-navbar" style={{direction:'rtl'}}>
         <div className="container-fluid">
          
@@ -22,10 +25,10 @@ const Navbar_res = () => {
               </li>
             
               <li className="nav-item">
-                <a className="nav-link " href="#" tabindex="-1" aria-disabled="true">محصولات ما</a>
+                <a className="nav-link " href="#" tabIndex="-1" aria-disabled="true">محصولات ما</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link " href="#" tabindex="-1" aria-disabled="true"> درباره ما</a>
+                <a className="nav-link " href="#" tabIndex="-1" aria-disabled="true"> درباره ما</a>
               </li>
             </ul>
           </div>
@@ -35,6 +38,7 @@ const Navbar_res = () => {
         </div>
          
       </nav>
+       </>
     )
 }
 
