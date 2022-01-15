@@ -74,7 +74,7 @@ h1 span:nth-child(8){
 
 video{
     height: 100%;
-    transition: all ease 1s;
+    
     object-fit: fill;
 }
 @keyframes anim {
