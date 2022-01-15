@@ -1,12 +1,35 @@
 import Head from 'next/head'
 import Image from 'next/image';
+import { useState } from 'react';
+import { useEffect } from 'react';
 
 import styles from '../styles/Home.module.css';
 import bg from '../public/asset/imgs/bg1.jpg'
 import Featured from '../Components/Featured';
 import Script from 'next/script'
+import Intro from '../Components/Intro';
 
 export default function Home() {
+
+  const [intro,setIntro]=useState(true);
+
+  useEffect(() => {
+
+    const valtimer= setTimeout(() => {
+      setIntro(false)
+    }, 7000);
+
+
+    
+    return () => {
+      clearTimeout(valtimer)
+    }
+  }, [])
+
+
+
+
+
   return (
     <div className={styles.container}>
      
@@ -19,8 +42,13 @@ export default function Home() {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossOrigin="anonymous"></link>
        
       </Head>
+      
 
       <Featured/>
+     {
+       intro &&  <Intro/>
+     }
+      
 
       
       

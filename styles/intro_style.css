@@ -1,0 +1,23 @@
+.intro-continer{
+    position: absolute;
+    top: -60px;
+    left: 0;
+    z-index: 100;
+    transition: all ease 1s;
+    margin: auto;
+    height: 750px;
+   
+    width: 100%;
+    background-color: black;
+}
+video{
+    height: 100%;
+}
+@keyframes anim {
+    from{
+        opacity: 100%;
+    }
+    to{
+        opacity: 0;
+    }
+}
