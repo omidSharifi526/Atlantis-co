@@ -9,7 +9,7 @@ import StdNavbar from './StdNavbar';
 const Layout = ({children}) => {
     return (
         <>
-            <StdNavbar/>
+            <Navbar_res/>
             {children}
             <Footer/>
             
