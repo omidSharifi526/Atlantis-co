@@ -1,0 +1,24 @@
+.product-container{
+  //  background: url('../public//asset//imgs//bac-1.jpg') center center;
+    background-size: cover;
+   
+        background-color: #212529;
+     
+    
+}
+
+.card{
+    
+    
+  
+
+    img{
+        border-radius: 50% !important;
+        // width: 150px !important;
+        margin: auto;
+        height: 100%;
+    }
+    button{
+        font-size: 0.75rem !important;
+    }
+}
