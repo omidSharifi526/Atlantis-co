@@ -1,5 +1,5 @@
 img{
-   max-height: 400px !important;
+   max-height: 550px !important;
 }
 
 
@@ -46,7 +46,7 @@ img{
     color: aliceblue !important;
 
 
-    margin: 0 1px;
+    margin: 0;
     width: 100%;
     height: 100%;
     position: relative;
@@ -59,7 +59,7 @@ img{
 
 @media screen and (max-width:'660px') {
     img{
-        height:250px;
+        height:400px;
     }
     .swiper-button-next:after {
       

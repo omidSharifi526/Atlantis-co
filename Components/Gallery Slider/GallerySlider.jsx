@@ -44,8 +44,14 @@ scrollbar={true} navigation={true}
     <img src="https://digighelioon.com/wp-content/uploads/2021/11/%DB%B2%DB%B0%DB%B2%DB%B1%DB%B1%DB%B1%DB%B1%DB%B4_%DB%B1%DB%B6%DB%B1%DB%B5%DB%B1%DB%B8-removebg-preview.png" />
     <p>تنه قلیان </p>
     </SwiperSlide>
-  <SwiperSlide><img src="https://cdn.magloft.com/github/swiper/images/page-003.jpg" /></SwiperSlide>
-  <SwiperSlide><img src="https://cdn.magloft.com/github/swiper/images/page-004.jpg" /></SwiperSlide>
+    <SwiperSlide>
+    <img src="https://digighelioon.com/wp-content/uploads/2021/11/%DB%B2%DB%B0%DB%B2%DB%B1%DB%B1%DB%B1%DB%B1%DB%B4_%DB%B1%DB%B6%DB%B1%DB%B5%DB%B1%DB%B8-removebg-preview.png" />
+    <p>تنه قلیان </p>
+    </SwiperSlide>
+    <SwiperSlide>
+    <img src="https://digighelioon.com/wp-content/uploads/2021/11/%DB%B2%DB%B0%DB%B2%DB%B1%DB%B1%DB%B1%DB%B1%DB%B4_%DB%B1%DB%B6%DB%B1%DB%B5%DB%B1%DB%B8-removebg-preview.png" />
+    <p>تنه قلیان </p>
+    </SwiperSlide>
   <SwiperSlide><img src="https://cdn.magloft.com/github/swiper/images/page-005.jpg" /></SwiperSlide>
   <SwiperSlide><img src="https://cdn.magloft.com/github/swiper/images/page-006.jpg" /></SwiperSlide>
   <SwiperSlide><img src="https://cdn.magloft.com/github/swiper/images/page-007.jpg" /></SwiperSlide>

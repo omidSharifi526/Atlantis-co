@@ -20,12 +20,12 @@ export default function Home() {
 
     const valtimer= setTimeout(() => {
       setIntro(false)
-    }, 9000);
+    }, 5000);
 
 
     
     return () => {
-      clearTimeout(valtimer)
+     
     }
   }, [])
 
@@ -44,6 +44,9 @@ export default function Home() {
      
        
       </Head>
+      {
+        <Intro/> && intro
+      }
       <Featured/>
      
      
