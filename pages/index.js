@@ -10,6 +10,7 @@ import Featured from '../Components/Featured';
 import Script from 'next/script'
 import Intro from '../Components/Intro';
 import MyProduct from '../Components/MyProduct';
+import GallerySlider from '../Components/Gallery Slider/GallerySlider';
 
 export default function Home() {
 
@@ -47,6 +48,8 @@ export default function Home() {
      
      
      <MyProduct/>
+
+     <GallerySlider/>
 
 
 

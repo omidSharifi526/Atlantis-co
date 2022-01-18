@@ -22,7 +22,7 @@ import SwiperCore, {
 const Featured = () => {
     return (
         <>
-        <Swiper spaceBetween={30} centeredSlides={true} autoplay={{
+        <Swiper spaceBetween={0} centeredSlides={true} autoplay={{
       "delay": 6500,
       "disableOnInteraction": false
     }} pagination={{
@@ -41,13 +41,6 @@ const Featured = () => {
         })
       }
 
-
-
-      {/* <SwiperSlide>{bg1}</SwiperSlide>
-      <SwiperSlide>{bg2}</SwiperSlide>
-      <SwiperSlide>{bg3}</SwiperSlide>
-      <SwiperSlide>{bg4}</SwiperSlide> */}
-  
       </Swiper>
         </>
     )
