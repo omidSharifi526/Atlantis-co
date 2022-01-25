@@ -29,12 +29,12 @@ const Footer = () => {
                 </div>
             <div className="footer-col col-12 col-md-6 mx-auto  text-center">
                 <div>
-                <i class="fas fa-map-marker-alt text-light"></i>
+                <i className="fas fa-map-marker-alt text-light"></i>
                  <span className='text-light fw-bold ' > آدرس : استان البرز-جاده محمد شهر</span>
                
                 </div>
                 <div className="mt-5">
-                <i class="fas fa-tell text-light"></i>
+                <i className="fas fa-tell text-light"></i>
                  <span className='text-light fw-bold ' > تلفن های تماس :   </span>
                  <span className='text-light fw-bold '>0912-987766</span>
                  
