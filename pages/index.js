@@ -12,6 +12,7 @@ import Intro from '../Components/Intro';
 import MyProduct from '../Components/MyProduct';
 import GallerySlider from '../Components/Gallery Slider/GallerySlider';
 
+
 export default function Home() {
 
   const [intro,setIntro]=useState(true);
@@ -53,6 +54,9 @@ export default function Home() {
      <MyProduct/>
 
      <GallerySlider/>
+     
+     
+     
 
 
 
