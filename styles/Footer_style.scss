@@ -24,8 +24,49 @@
   direction: rtl !important;
   min-height: 230px;
   padding: 10px 30px;
-  font-size: 15px !important;
+  font-size: 20px !important;
   span{
       font-size: 12px  !important;
   }
+}
+
+
+.footer-descript{
+  
+  min-height:300px;
+  background-image: radial-gradient( circle farthest-corner at -8.9% 51.2%,  rgba(255,124,0,1) 0%, rgba(255,124,0,1) 15.9%, rgba(255,163,77,1) 15.9%, rgba(255,163,77,1) 24.4%, rgba(19,30,37,1) 24.5%, rgba(19,30,37,1) 66% );
+  // background-image: linear-gradient( 109.6deg,  rgba(255,174,0,1) 11.2%, rgba(255,0,0,1) 100.2% );
+  // background: linear-gradient(25deg,#d64c7f73,#ee4758 50%);
+   border-radius: 30px;
+  padding: 20px 10px;
+  
+  span{
+    font-weight: 900;
+    margin: 10px 20px;
+    font-size: 14px !important;
+   
+  }
+}
+
+.footer-address{
+ background-color: #131E25;
+ border-radius: 30px;
+ min-height:300px;
+ padding: 20px 10px;
+ font-size: 14px !important;
+ font-weight: 900;
+ span{
+   margin: 10px 10px;
+ }
+ .so-media{
+   margin-top: 50px;
+   width: 100%;
+  padding: 0 20px;
+
+  img{
+    margin: 5px 15px;
+    cursor: pointer;
+
+  }
+ }
 }
