@@ -3,7 +3,7 @@ import Prod from '../public/asset/Data/Product_Data.json';
 import ProductCard from './ProductCard';
 
 const MyProduct = () => {
-    console.log(Prod);
+  //  console.log(Prod);
     return (
         <div className='container-fluid  '>
            <div className="product-container  w-100  " style={{minHeight:'400px'}}>

@@ -11,6 +11,7 @@ import Script from 'next/script'
 import Intro from '../Components/Intro';
 import MyProduct from '../Components/MyProduct';
 import GallerySlider from '../Components/Gallery Slider/GallerySlider';
+import ProductSlider from '../Components/Product Slider/ProductSlider';
 
 
 export default function Home() {
@@ -54,6 +55,7 @@ export default function Home() {
      <MyProduct/>
 
      <GallerySlider/>
+     <ProductSlider header='محبوب ترین ها'/>
      
      
      

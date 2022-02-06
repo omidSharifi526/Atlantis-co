@@ -15,7 +15,9 @@ import '../styles/navbar_Std.css';
 import '../styles/intro_style.css';
 import '../styles/myProduct_style.scss';
 import '../styles/gallery_slider_style.scss';
-import '../styles/Footer_style.scss'
+import '../styles/Footer_style.scss';
+import '../styles/Product_slider_style.scss';
+import '../styles/Cards_Style.scss'
 
 
 
