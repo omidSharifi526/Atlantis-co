@@ -1,4 +1,6 @@
 import React from 'react';
+import Link from 'next/link';
+import Router from 'next/router';
 
 import Image from 'next/image'
 
@@ -19,17 +21,25 @@ const Navbar_res = () => {
           <div className="collapse navbar-collapse " style={{direction:'rtl'}} id="navbarSupportedContent">
             <ul className="navbar-nav  mb-2 mb-lg-0">
               <li className="nav-item p-2">
-                <a className="nav-link active" aria-current="page" href="#">خانه</a>
+               <Link href='/'>
+               <a className="nav-link active" aria-current="page">خانه</a>
+               </Link>
               </li>
               <li className="nav-item p-2">
-                <a className="nav-link" href="#">سفارش قلیون</a>
+              <Link href="/gallery">
+              <a className="nav-link" >گالری محصولات</a>
+              </Link>
               </li>
             
               <li className="nav-item p-2">
-                <a className="nav-link " href="#" tabIndex="-1" aria-disabled="true">محصولات ما</a>
+               <Link href="/contactUs">
+                 <a className="nav-link "  tabIndex="-1" aria-disabled="true">ارتباط با ما</a>
+               </Link>
               </li>
               <li className="nav-item p-2">
-                <a className="nav-link " href="#" tabIndex="-1" aria-disabled="true"> درباره ما</a>
+              <Link href="/aboutUs">
+              <a className="nav-link "  tabIndex="-1" aria-disabled="true"> درباره ما</a>
+              </Link>
               </li>
             
             </ul>

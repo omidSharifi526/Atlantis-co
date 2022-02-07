@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image';
-import 'bootstrap/dist/css/bootstrap.css'; 
+import 'bootstrap/dist/css/bootstrap.css';
+ 
 import { useState } from 'react';
 import { useEffect } from 'react';
 

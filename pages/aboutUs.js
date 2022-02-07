@@ -2,7 +2,7 @@ import React from 'react'
 
 const about = () => {
     return (
-        <div>
+        <div style={{height:'500px',backgroundColor:'red'}}>
         about Page
         </div>
     )
