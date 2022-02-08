@@ -33,8 +33,9 @@ const Featured = () => {
         imgs.map((img,index)=>{
           console.log(img);
           return (<> 
-
-          <SwiperSlide><img width='100%' key={index} height='900px' src={img.src} alt="test" /></SwiperSlide>
+          <SwiperSlide>
+          <img  className="shadowed" width='100%' key={index} height='900px' src={img.src} alt="test" />
+          </SwiperSlide>
           </>)
 
 

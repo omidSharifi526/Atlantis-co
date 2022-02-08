@@ -1,10 +1,16 @@
 import React from 'react';
+import ProductSlider from '../Components/Product Slider/ProductSlider';
 
 const gallery = () => {
-  return <div style={{height:'500px',backgroundColor:'blue'}}>
-    <h3>
-      gallery products
-    </h3>
+  return <div>
+  <div className='continer mx-auto w-100 m-auto'>
+  <ProductSlider header='محبوب ترین ها'/>
+  <ProductSlider header='تازه ها'/>
+  <ProductSlider header=' فروش ویژه'/>
+
+
+
+  </div>
   </div>;
 };
 

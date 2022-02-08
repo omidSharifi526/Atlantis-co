@@ -11,7 +11,7 @@ const MyProduct = () => {
            
            
            <div className='col-9 mx-auto  text-center mt-4 mb-4'>
-           <h2 className='fs-6 fw-bold p-3 mt-2 mb-2 text-light mb-md-4 mt-md-4'>محصولات ما در یک نگاه</h2>
+           <h2 className='text-head fs-6 fw-bold p-3 mt-2 mb-2 text-light mb-md-4 mt-md-4'>محصولات ما در یک نگاه</h2>
            </div>
            
            

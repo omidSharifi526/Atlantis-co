@@ -14,7 +14,7 @@ const ProductSlider = ({header}) => {
     //console.log(Prod);
   return <div className='Product_slider'>
       <div className="d-flex justify-content-end text-white p-header bg-black">
-          <h3>{header}</h3>
+          <h3 className="fs-3 p-2  rounded">{header}</h3>
           </div>
        <Swiper style={{backgroundColor:'#212529'}}
         slidesPerView={1}

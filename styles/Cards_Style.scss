@@ -1,8 +1,14 @@
 @media screen and (max-width:'667px') {
   .mcard img{
         width: 200px !important;
+        // filter: drop-shadow(5px 5px 5px rgb(255, 255, 255)) !important;
     }
 }
 .mcard{
     padding: 30px 10px;
+}
+.shadowed {
+    filter: drop-shadow(12px 12px 25px rgba(255, 254, 254, 0.26));
+   
+  
 }

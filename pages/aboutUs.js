@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import MiddleText from '../Components/MiddleText/MiddleText';
 
 const about = () => {
     return (
-        <div style={{height:'500px',backgroundColor:'red'}}>
-        about Page
+        <div style={{height:'500px',paddingTop:'200px'}}>
+        <MiddleText/>
         </div>
     )
 }
