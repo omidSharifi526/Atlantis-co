@@ -9,7 +9,7 @@ const Navbar_res = () => {
     return (
        <>
        
-        <nav className="navbar fixed-top navbar-expand-md navbar-dark mnav m-navbar fs-6" style={{direction:'rtl'}}>
+        <nav  className="navbar fixed-top navbar-expand-md navbar-dark mnav m-navbar fs-6" style={{direction:'rtl',zIndex:1000}}>
         <div className="container-fluid">
           
         <a className="navbar-brand  " href="#">Atlantis-Co</a>

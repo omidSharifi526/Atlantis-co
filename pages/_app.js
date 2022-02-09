@@ -22,6 +22,7 @@ import '../styles/Footer_style.scss';
 import '../styles/Product_slider_style.scss';
 import '../styles/Cards_Style.scss';
 import '../styles/Middle_text_style.scss';
+import '../styles/About_style.scss'
 
 
 
