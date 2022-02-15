@@ -11,16 +11,16 @@ const contactUs = () => {
       </div>
       <div className='col-12 d-flex justify-content-end d-2'>
       <div className='con-p'>
-      <p >پاسخ گوی  24 ساعته</p>
+      <p > <i className="fas fa-headset p-4 fs-3"></i> پاسخ گوی  24 ساعته</p>
       <p> راه های ارتباطی  </p>
       </div>
       </div>
 
        </div>
 
+      
 
-
-      <div className=' row mt-4  '>
+      <div className=' m-row row mt-4  '>
          {/* <div className='ways row '> */}
            <div className='w1 ways-container mt-3  col-10 col-md-3 mx-auto   ' style={{height:'200px'}}>
              <div className='call-icn text-center'>
@@ -33,6 +33,8 @@ const contactUs = () => {
 
 
 
+           
+
            <div className='w2 ways-container mt-3  col-10 col-md-3 mx-auto ' style={{height:'200px'}}>
            <div className='call-icn'>
            <i className="fab fa-whatsapp text-white text-center fs-2 "></i>
@@ -44,6 +46,12 @@ const contactUs = () => {
            <div className='w3 ways-container mt-3  col-10 col-md-3 mx-auto' style={{height:'200px'}}>
            <div className='call-icn'>
            <i className="fab fa-telegram text-white text-center fs-2 "></i>
+               </div>
+           </div>
+{/* instagram col */}
+           <div className='w2 ways-container mt-3  col-10 col-md-3 mx-auto ' style={{height:'200px'}}>
+           <div className='call-icn'>
+           <i className="fab fa-instagram fs-2"></i>
                </div>
            </div>
            {/* <div className='w4 mt-3 bg-dark col-10 col-md-4 mx-auto' style={{height:'200px'}}>

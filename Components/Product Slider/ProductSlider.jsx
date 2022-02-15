@@ -12,11 +12,12 @@ import SwiperCore, {
 
 const ProductSlider = ({header}) => {
     //console.log(Prod);
-  return <div className='Product_slider'>
+  return <div className='Product_slider '>
       <div className="d-flex justify-content-end text-white p-header bg-black">
           <h3 className="fs-3 p-2  rounded">{header}</h3>
           </div>
-       <Swiper style={{backgroundColor:'#212529'}}
+       <div className=" col-12 bg-danger ">
+       <Swiper  style={{width:'100%'}}
         slidesPerView={1}
         spaceBetween={10}
         // pagination={{
@@ -25,7 +26,7 @@ const ProductSlider = ({header}) => {
         navigation={true}
         breakpoints={{
           640: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 20,
           },
           768: {
@@ -48,16 +49,9 @@ const ProductSlider = ({header}) => {
                     )
                 })
             }
-        {/* <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide> */}
+    
       </Swiper>
+       </div>
   </div>;
 };
 

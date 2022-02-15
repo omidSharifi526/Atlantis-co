@@ -8,12 +8,12 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) ;
    
 }
-h2{
-    background-color: #131E25;
-    width: 100%;
-    text-align: right;
-    padding-right: 150px;
-}
+// h2{
+//     background-color: #131E25;
+//     width: 100%;
+//     text-align: right;
+//     padding-right: 150px;
+// }
 
 .con-p{
     //background-color: rgb(41, 43, 46) !important;
@@ -32,9 +32,28 @@ h2{
  // background-color: rgb(54, 33, 33);
   margin-bottom: 250px;
 }
+
+// .call-icn{
+//     width: 50% !important;
+// }
+// .w1 .w2 {
+// max-width: 250px !important;
+// background-color: aliceblue !important;
+// }
+.m-row div{
+    max-width: 250px !important;
+//  background-color: aliceblue !important;
+}
+
+
+
 @media screen and (max-width:'668px') {
     .m-con{
         margin-bottom: 50px;
+    }
+    .m-row div{
+        max-width: 350px !important;
+    //  background-color: aliceblue !important;
     }
 }
 
@@ -53,3 +72,29 @@ h2{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.425) ;
     text-align: center;
 }
+
+.call-icn:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    cursor: pointer;
+  }
+
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }

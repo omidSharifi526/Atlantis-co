@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect,useState} from 'react';
 import Link from 'next/link';
 import Router from 'next/router';
 
@@ -6,6 +6,10 @@ import Image from 'next/image'
 
 
 const Navbar_res = () => {
+
+  const [showmenu,setshowmenu]=useState(false)
+
+
     return (
        <>
        
@@ -31,7 +35,7 @@ const Navbar_res = () => {
               </li>
               <li className="nav-item p-2 mt-2">
               <Link href="/gallery">
-              <a className="nav-link" >گالری محصولات</a>
+              <a className="nav-link " >گالری محصولات</a>
               </Link>
               </li>
             
