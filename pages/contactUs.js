@@ -29,6 +29,22 @@ const contactUs = () => {
              {/* <FontAwesomeIcon icon="fa-brands fa-instagram" /> */}
 
              </div>
+
+             <div>
+               <p className='text-center mt-3'>تلفن های تماس</p>
+               <span className='d-block text-center mt-2'>
+               09120996698
+               </span>
+               <span className='d-block text-center mt-2'>
+               09399992292
+               </span>
+               <span className='text-center d-block mt-2'>
+               02636701672
+               </span>
+           
+             </div>
+
+
            </div>
 
 
@@ -39,6 +55,16 @@ const contactUs = () => {
            <div className='call-icn'>
            <i className="fab fa-whatsapp text-white text-center fs-2 "></i>
                </div>
+
+               <div>
+               <p className='text-center mt-3'>واتساپ</p>
+               <span className='d-block text-center mt-2'>
+               09120996698
+               </span>
+               <span className='d-block text-center mt-2'>
+               09399992292
+               </span>
+             </div>
            </div>
 
 
@@ -47,12 +73,29 @@ const contactUs = () => {
            <div className='call-icn'>
            <i className="fab fa-telegram text-white text-center fs-2 "></i>
                </div>
+               <div>
+          <p className='text-center mt-3'>تلگرام</p>
+            <span className='text-center d-block'>
+            @atlantis_hookah
+            </span>
+          </div>
            </div>
 {/* instagram col */}
            <div className='w2 ways-container mt-3  col-10 col-md-3 mx-auto ' style={{height:'200px'}}>
            <div className='call-icn'>
            <i className="fab fa-instagram fs-2"></i>
-               </div>
+          </div>
+
+          <div>
+          <p className='text-center mt-3'>اینستاگرام</p>
+            <span className='text-center d-block'>
+            @atlantis__company
+            </span>
+          </div>
+          
+
+
+
            </div>
            {/* <div className='w4 mt-3 bg-dark col-10 col-md-4 mx-auto' style={{height:'200px'}}>
            <div className='call-icn'>

@@ -28,15 +28,14 @@ const about = () => {
             </div>
        </div>
    </div>
-       <div className='text-container mt-5'>
+       <div className='text-container mt-5 mb-5'>
        <h3 className='text-right pb-5'>
            فروشگاه اینترنتی آتلانتیس
 
        </h3>
-       <span className=' fs-6 pt-5 mt-5 w-75'>
+       <span className=' fs-6 pt-5 mt-5 w-75 mb-5'>
        فروشگاه اینترنتی دیجی‌قلیون
 عرضه انواع لوازم مصرفی قلیون(تنه، شیلنگ قلیون و…).
-
 هفت روز هفته ، در ساعات اداری پاسخگوی شما هستیم.
 
        </span>

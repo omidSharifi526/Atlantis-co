@@ -10,8 +10,8 @@ import Layout from '../Components/Layout';
 
 
 import '../styles/Navbar_res_styless.scss';
-import '../styles/Std_navbar_style.scss';
-import '../styles/navbar_Std.css';
+// import '../styles/Std_navbar_style.scss';
+// import '../styles/navbar_Std.css';
 import '../styles/intro_style.css';
 
 import '../styles/Featured_style.scss'

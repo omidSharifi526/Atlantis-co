@@ -16,7 +16,7 @@ const ProductSlider = ({header}) => {
       <div className="d-flex justify-content-end text-white p-header bg-black">
           <h3 className="fs-3 p-2  rounded">{header}</h3>
           </div>
-       <div className=" col-12 bg-danger ">
+       <div className="   ">
        <Swiper  style={{width:'100%'}}
         slidesPerView={1}
         spaceBetween={10}

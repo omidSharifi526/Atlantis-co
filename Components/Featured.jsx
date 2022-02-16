@@ -12,22 +12,22 @@ import bg3 from '../public/asset/imgs/bg3.jpg';
 import bg4 from '../public/asset/imgs/bg4.jpg';
 
 import SwiperCore, {
-    Autoplay,Pagination,Navigation
+    Autoplay,Pagination,Navigation,EffectFade
   } from 'swiper';
 
-  SwiperCore.use([Autoplay,Pagination,Navigation]);
+  SwiperCore.use([Autoplay,Pagination,EffectFade]);
 
   const imgs=[bg1,bg2,bg3,bg4]
 
 const Featured = () => {
     return (
         <>
-        <Swiper spaceBetween={0} centeredSlides={true} autoplay={{
+        <Swiper modules={[EffectFade]} spaceBetween={50}   centeredSlides={true} autoplay={{
       "delay": 6500,
       "disableOnInteraction": false
-    }} pagination={{
-      "clickable": true
-    }} navigation={true} className="mySwiper">
+    }} 
+    // navigation={true} 
+    className="mySwiper">
 
       {
         imgs.map((img,index)=>{
