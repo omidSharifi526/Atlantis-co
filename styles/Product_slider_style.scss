@@ -1,17 +1,20 @@
 .Product_slider{
  
   
-    margin: 75px 0;
+    //margin: 75px 0;
     .p-header {
-        padding: 10px 30px ;
+        padding: 10px 10px ;
         
         
-        background-color: #131E25 !important;
+        // background-color: #131E25 !important;
         h3{
-            font-size: 1.5rem !important;
+            // font-size: 1.5rem !important;
             background-color: red !important;
+            width: 100% !important;
+            text-align: right;
+            padding: 15px !important;
 
-         text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+        // text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
         }
     }
 }

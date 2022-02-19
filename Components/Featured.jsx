@@ -21,7 +21,7 @@ import SwiperCore, {
 
 const Featured = () => {
     return (
-        <>
+        <div className="mt-5 pt-4">
         <Swiper modules={[EffectFade]} spaceBetween={50}   centeredSlides={true} autoplay={{
       "delay": 6500,
       "disableOnInteraction": false
@@ -31,7 +31,7 @@ const Featured = () => {
 
       {
         imgs.map((img,index)=>{
-          console.log(img);
+        //  console.log(img);
           return (<> 
           <SwiperSlide>
           <img  className="shadowed" width='100%' key={index} height='900px' src={img.src} alt="test" />
@@ -43,7 +43,7 @@ const Featured = () => {
       }
 
       </Swiper>
-        </>
+        </div>
     )
 }
 

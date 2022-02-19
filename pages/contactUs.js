@@ -11,8 +11,8 @@ const contactUs = () => {
       </div>
       <div className='col-12 d-flex justify-content-end d-2'>
       <div className='con-p'>
-      <p > <i className="fas fa-headset p-4 fs-3"></i> پاسخ گوی  24 ساعته</p>
-      <p> راه های ارتباطی  </p>
+      <p className='p-2 m-con w-100 rounded'> <i className="fas fa-headset p-2 fs-3"></i> پاسخ گوی  24 ساعته</p>
+      <p className='  p-2 rounded w-100'> راه های ارتباطی  </p>
       </div>
       </div>
 

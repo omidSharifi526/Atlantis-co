@@ -13,8 +13,8 @@ import SwiperCore, {
 const ProductSlider = ({header}) => {
     //console.log(Prod);
   return <div className='Product_slider '>
-      <div className="d-flex justify-content-end text-white p-header bg-black">
-          <h3 className="fs-3 p-2  rounded">{header}</h3>
+      <div className="d-flex justify-content-end text-white p-header ">
+          <h3 className="fs-6 p-2 pt-2 pb-2  rounded">{header}</h3>
           </div>
        <div className="   ">
        <Swiper  style={{width:'100%'}}

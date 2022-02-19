@@ -15,8 +15,8 @@
 
           const GallerySlider = () => {
               return (
-                  <div className="col-10 mx-auto" style={{Height:'400px'}}>
-                    <h2 className=" text-head text-center text-light fs-6 fw-bold pt-5 pb-4">محصولات ویژه</h2>
+                  <div className="col-12 mx-auto container-fluid justify-content-end" style={{Height:'400px'}}>
+                    <h2 className="  text-light fs-6 spec-text  p-3 rounded ">محصولات ویژه</h2>
                     <Swiper slidesPerView={2} centeredSlides={false} slidesPerGroupSkip={1} grabCursor={true} keyboard={{
             "enabled": true
             }} breakpoints={{

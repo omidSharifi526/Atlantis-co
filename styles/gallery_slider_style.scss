@@ -1,5 +1,9 @@
 img{
-   max-height: 550px !important;
+   max-height: 500px !important;
+}
+.spec-text{
+    text-align: right;
+    background-color: red !important;
 }
 
 
@@ -36,7 +40,7 @@ img{
 
 .swiper-slide {
     flex-shrink: 0 !important;
-    background-color: rgba(134, 84, 84, 0.123)!important;
+    background-color: rgba(255, 160, 160, 0)!important;
     backdrop-filter: blur(50%);
     border-radius: 5px !important;
     display: flex !important;
@@ -59,7 +63,7 @@ img{
 
 @media screen and (max-width:'660px') {
     img{
-        height:400px;
+        height:300px;
     }
     .swiper-button-next:after {
       
