@@ -3,14 +3,16 @@ import React from 'react';
 
 const contactUs = () => {
   return <div className='  mb-4 m-con container-fluid bg-dark text-light ' >
-      <div className='row '>
-      <div className='col-12 d-flex justify-content-end '>
-       <h2 className='p-3 rounded fs-4 ' style={{marginTop:'100px'}}>سفارش و خرید </h2>
-       
-       
+      <div className='row  '>
+      <div className='col-12 col-md-6 d-flex justify-content-center mt-md-5'>
+      <img className='contact-img rounded mt-5' src='https://archives.drugabuse.gov/sites/default/files/hookah_optimized.jpg' />
       </div>
-      <div className='col-12 d-flex justify-content-end d-2'>
-      <div className='con-p'>
+      <div className=' head-text col-12 col-md-6  col-md-6 text-center d-flex justify-content-center align-item-center '>
+       <h2 className='p-3 rounded fs-4 d-md-block  mt-md-5 '>سفارش و خرید </h2>
+      </div>
+      
+      <div className='col-12 d-flex justify-content-end '>
+      <div className='con-p text-center '>
       <p className='p-2 m-con w-100 rounded'> <i className="fas fa-headset p-2 fs-3"></i> پاسخ گوی  24 ساعته</p>
       <p className='  p-2 rounded w-100'> راه های ارتباطی  </p>
       </div>
