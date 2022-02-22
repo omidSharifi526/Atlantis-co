@@ -1,21 +1,12 @@
-import React,{useEffect,useState} from 'react';
+import React,{useEffect} from 'react';
 import ProductSlider from '../Components/Product Slider/ProductSlider';
 
 
 const gallery = () => {
 
-  const [load,setLoad]=useState(false);
+  // const [useload,setLoad]=usestate(false);
 
-  useEffect(() => {
-    
-    setTimeout(() => {
-      setLoad(true)
-    }, 2000);
   
-    return () => {
-      
-    }
-  }, [])
   
 
 
@@ -28,9 +19,9 @@ const gallery = () => {
 
 
   </div> */}
-  {
-    load && <ProductSlider/>
-    }
+  
+    <ProductSlider/>
+    
   </div>;
 };
 
