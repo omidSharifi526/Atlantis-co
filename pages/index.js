@@ -13,6 +13,7 @@ import Intro from '../Components/Intro';
 import MyProduct from '../Components/MyProduct';
 import GallerySlider from '../Components/Gallery Slider/GallerySlider';
 import ProductSlider from '../Components/Product Slider/ProductSlider';
+import Extra from '../Components/Extra Page/ExtraPage'
 
 
 export default function Home() {
@@ -52,33 +53,15 @@ export default function Home() {
       }
       <Featured/>
      
-     
+     <Extra/>
      <MyProduct/>
+
 
      <GallerySlider/>
      <ProductSlider header='محبوب ترین ها'/>
+
      
-     
-     
-
-
-
-      
-
-      
-      
-      
-       
-
-
-
-
-
-
-       
-      
-
-        
+  
     </div>
      
   )

@@ -15,9 +15,6 @@ const gallery = () => {
   <ProductSlider header='محبوب ترین ها'/>
   <ProductSlider header='تازه ها'/>
   <ProductSlider header=' فروش ویژه'/>
-
-
-
   </div> */}
   
     <ProductSlider/>

@@ -1,7 +1,6 @@
 
 
 
-
 import '../styles/globals.css';
 import Layout from '../Components/Layout';
 
@@ -24,6 +23,7 @@ import '../styles/Cards_Style.scss';
 import '../styles/Middle_text_style.scss';
 import '../styles/About_style.scss';
 import '../styles/Contact_style.scss'
+import '../styles/Extra_style.scss'
 
 
 

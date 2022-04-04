@@ -1,9 +1,12 @@
 import React from 'react';
 import MiddleText from '../Components/MiddleText/MiddleText';
+import ExtraPage from '../Components/Extra Page/ExtraPage';
 
 const about = () => {
     return (
+        
         <div className='about-container container-fluid  pt-5'>
+            <ExtraPage/>
        <div className='aboute-content  text-light'>
        <h2 className='text-center fw-bolder fs-4'>
      آتلانتیس
